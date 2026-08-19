@@ -1,0 +1,85 @@
+{"kind":"deck","id":"pr/y1dby3","name":"Deck"}
+{"kind":"layout","layoutId":"/ppt/slideMasters/slideMaster1.xml","name":"Master","type":"master"}
+{"kind":"layout","layoutId":"/ppt/slideLayouts/slideLayout1.xml","name":"Title Slide","type":"title"}
+{"kind":"slide","id":"sl/y90nupkv","slide":1,"title":"Beneficios: control, velocidad y menor costo","textShapes":15}
+{"kind":"textbox","id":"sh/dgzetcfa","slide":1,"name":"title-3","text":"Beneficios: control, velocidad y menor costo","textPreview":"Beneficios: control, velocidad y menor costo","textChars":44,"textLines":1,"bbox":[42,34,1160,86]}
+{"kind":"shape","id":"sh/zadcv2p8","slide":1,"name":"rule-3","bbox":[42,130,1196,0]}
+{"kind":"textbox","id":"sh/k3yl0zql","slide":1,"name":"page-3","text":"01","textPreview":"01","textChars":2,"textLines":1,"bbox":[1184,662,54,22]}
+{"kind":"textbox","id":"sh/7qp4be9c","slide":1,"name":"left-label","text":"PARA EL NEGOCIO","textPreview":"PARA EL NEGOCIO","textChars":15,"textLines":1,"bbox":[42,170,540,34]}
+{"kind":"textbox","id":"sh/65g3298r","slide":1,"name":"right-label","text":"PARA TECNOLOGÍA Y RIESGO","textPreview":"PARA TECNOLOGÍA Y RIESGO","textChars":24,"textLines":1,"bbox":[658,170,540,34]}
+{"kind":"shape","id":"sh/ts7md4r2","slide":1,"name":"left-body","bbox":[42,220,540,346]}
+{"kind":"shape","id":"sh/sryl4zqx","slide":1,"name":"right-body","bbox":[658,220,540,346]}
+{"kind":"textbox","id":"sh/fu94fe98","slide":1,"name":"l-0","text":"✓  Cambios sin desplegar la aplicación","textPreview":"✓  Cambios sin desplegar la aplicación","textChars":38,"textLines":1,"bbox":[74,255,480,42]}
+{"kind":"textbox","id":"sh/utg3698n","slide":1,"name":"l-1","text":"✓  Resultado reproducible","textPreview":"✓  Resultado reproducible","textChars":25,"textLines":1,"bbox":[74,312,480,42]}
+{"kind":"textbox","id":"sh/wn6dc7eh","slide":1,"name":"l-2","text":"✓  Revisión antes de publicar","textPreview":"✓  Revisión antes de publicar","textChars":29,"textLines":1,"bbox":[74,369,480,42]}
+{"kind":"textbox","id":"sh/hofulsf2","slide":1,"name":"l-3","text":"✓  Auditoría por versión","textPreview":"✓  Auditoría por versión","textChars":24,"textLines":1,"bbox":[74,426,480,42]}
+{"kind":"textbox","id":"sh/ul4vaxgb","slide":1,"name":"l-4","text":"✓  IA fuera de la ruta crítica","textPreview":"✓  IA fuera de la ruta crítica","textChars":30,"textLines":1,"bbox":[74,483,480,42]}
+{"kind":"textbox","id":"sh/vmdcj2xw","slide":1,"name":"r-0","text":"✓  Un IR común para SQL y PySpark","textPreview":"✓  Un IR común para SQL y PySpark","textChars":33,"textLines":1,"bbox":[690,255,480,42]}
+{"kind":"textbox","id":"sh/4r6dg7et","slide":1,"name":"r-1","text":"✓  Ejecución en DuckDB y Spark","textPreview":"✓  Ejecución en DuckDB y Spark","textChars":30,"textLines":1,"bbox":[690,312,480,42]}
+{"kind":"textbox","id":"sh/5sfepcfe","slide":1,"name":"r-2","text":"✓  Catálogo limita datos y columnas","textPreview":"✓  Catálogo limita datos y columnas","textChars":35,"textLines":1,"bbox":[690,369,480,42]}
+{"kind":"textbox","id":"sh/ipovexwn","slide":1,"name":"r-3","text":"✓  Pruebas comparan ambos motores","textPreview":"✓  Pruebas comparan ambos motores","textChars":33,"textLines":1,"bbox":[690,426,480,42]}
+{"kind":"textbox","id":"sh/3qxwn2x8","slide":1,"name":"r-4","text":"✓  Sin inferencia recurrente","textPreview":"✓  Sin inferencia recurrente","textChars":28,"textLines":1,"bbox":[690,483,480,42]}
+{"kind":"textbox","id":"sh/sfqdkrep","slide":1,"name":"decision","text":"La IA acelera la autoría; el DSL conserva el control de producción.","textPreview":"La IA acelera la autoría; el DSL conserva el control de producción.","textChars":67,"textLines":1,"bbox":[42,605,1150,40]}
+{"kind":"notes","id":"nt/y90nupkv","slide":1,"text":"Idea central: separar la asistencia de IA de la ejecución productiva.\n\n[Sources]\n- README.md — diseño, validación y ejecución.\n- notebooks/rule_manager_demo.ipynb — equivalencia entre lenguajes y motores."}
+{"kind":"slide","id":"sl/hwbqtkby","slide":2,"title":"Flujo: del código aprobado a la ejecución","textShapes":11}
+{"kind":"textbox","id":"sh/76twva5c","slide":2,"name":"title-4","text":"Flujo: del código aprobado a la ejecución","textPreview":"Flujo: del código aprobado a la ejecución","textChars":41,"textLines":1,"bbox":[42,34,1160,86]}
+{"kind":"shape","id":"sh/gbmxszmt","slide":2,"name":"rule-4","bbox":[42,130,1196,0]}
+{"kind":"textbox","id":"sh/ozy1ofad","slide":2,"name":"page-4","text":"02","textPreview":"02","textChars":2,"textLines":1,"bbox":[1184,662,54,22]}
+{"kind":"shape","id":"sh/b29kza94","slide":2,"name":"arrow-0","bbox":[211,290,64,42]}
+{"kind":"shape","id":"sh/a10jqpsj","slide":2,"name":"arrow-1","bbox":[445,290,64,42]}
+{"kind":"shape","id":"sh/x4r21kru","slide":2,"name":"arrow-2","bbox":[679,290,64,42]}
+{"kind":"shape","id":"sh/w3i1sfa9","slide":2,"name":"arrow-3","bbox":[913,290,64,42]}
+{"kind":"shape","id":"sh/r65knqtk","slide":2,"name":"node-0","bbox":[46,230,164,160]}
+{"kind":"textbox","id":"sh/q5wjelsz","slide":2,"name":"node-text-0","text":"SQL o\nPySpark","textPreview":"SQL o | PySpark","textChars":13,"textLines":2,"bbox":[54,266,148,86]}
+{"kind":"shape","id":"sh/ove9o7yd","slide":2,"name":"node-1","bbox":[280,230,164,160]}
+{"kind":"textbox","id":"sh/9wnqhczy","slide":2,"name":"node-text-1","text":"Parser\nAST","textPreview":"Parser | AST","textChars":10,"textLines":2,"bbox":[288,266,148,86]}
+{"kind":"shape","id":"sh/mtwrmxg7","slide":2,"name":"node-2","bbox":[514,230,164,160]}
+{"kind":"textbox","id":"sh/nu58f2hs","slide":2,"name":"node-text-2","text":"Validación\nsemántica","textPreview":"Validación | semántica","textChars":20,"textLines":2,"bbox":[522,266,148,86]}
+{"kind":"shape","id":"sh/wjy9sry9","slide":2,"name":"node-3","bbox":[748,230,164,160]}
+{"kind":"textbox","id":"sh/xk7qlczu","slide":2,"name":"node-text-3","text":"DSL JSON\nversionado","textPreview":"DSL JSON | versionado","textChars":19,"textLines":2,"bbox":[756,266,148,86]}
+{"kind":"shape","id":"sh/ahwrqhgj","slide":2,"name":"node-4","bbox":[982,230,164,160]}
+{"kind":"textbox","id":"sh/bip8jmho","slide":2,"name":"node-text-4","text":"DuckDB o\nSpark","textPreview":"DuckDB o | Spark","textChars":14,"textLines":2,"bbox":[990,266,148,86]}
+{"kind":"textbox","id":"sh/cnupgny5","slide":2,"name":"control-a","text":"Catálogo","textPreview":"Catálogo","textChars":8,"textLines":1,"bbox":[294,430,180,34]}
+{"kind":"textbox","id":"sh/do3q9szq","slide":2,"name":"control-b","text":"Tipos y nulos","textPreview":"Tipos y nulos","textChars":13,"textLines":1,"bbox":[528,430,180,34]}
+{"kind":"textbox","id":"sh/t8byxkn2","slide":2,"name":"control-c","text":"Integridad","textPreview":"Integridad","textChars":10,"textLines":1,"bbox":[762,430,180,34]}
+{"kind":"textbox","id":"sh/s72xofmh","slide":2,"name":"architecture-callout","text":"El código original no llega al ejecutor: solo llega un plan validado con operaciones conocidas.","textPreview":"El código original no llega al ejecutor: solo llega un plan validado con operaciones conocidas.","textChars":95,"textLines":1,"bbox":[200,510,880,62]}
+{"kind":"notes","id":"nt/hwbqtkby","slide":2,"text":"El parser transforma AST de SQL o PySpark; el ejecutor recibe únicamente DSL validado.\n\n[Sources]\n- README.md — arquitectura y representación intermedia.\n- src/rule_interpreter/parsers/ y src/rule_interpreter/executors/ — implementación."}
+{"kind":"slide","id":"sl/ofy9wn61","slide":3,"title":"DSL (1/2): una regla de crédito en datos","textShapes":11}
+{"kind":"textbox","id":"sh/w7ulsvqp","slide":3,"name":"title-5","text":"DSL (1/2): una regla de crédito en datos","textPreview":"DSL (1/2): una regla de crédito en datos","textChars":40,"textLines":1,"bbox":[42,34,1160,86]}
+{"kind":"shape","id":"sh/z2d07mh4","slide":3,"name":"rule-5","bbox":[42,130,1196,0]}
+{"kind":"textbox","id":"sh/d0jax03i","slide":3,"name":"page-5","text":"03","textPreview":"03","textChars":2,"textLines":1,"bbox":[1184,662,54,22]}
+{"kind":"shape","id":"sh/298ryl4v","slide":3,"name":"json-panel","bbox":[42,166,600,442]}
+{"kind":"textbox","id":"sh/3ah8rqlg","slide":3,"name":"json","text":"{\n \"dsl_version\": \"1.0\",\n \"rule\": { \"id\": \"credit-policy\" },\n \"inputs\": [{ \"source\": \"clients\" }],\n \"plan\": {\n  \"op\": \"project\",\n  \"input\": {\n   \"op\": \"filter\",\n   \"input\": { \"op\": \"scan\",\n              \"source\": \"clients\" },\n   \"where\": { \"op\": \"and\", \"args\": [\n    { \"op\": \"gte\", \"column\": \"income\",\n      \"value\": 3000 },\n    { \"op\": \"gte\", \"column\": \"credit_score\",\n      \"value\": 650 }\n   ]}\n  },\n  \"columns\": [\"client_id\", \"income\",\n   { \"as\": \"decision\", \"expr\": { \"op\": \"case\",\n     \"when\": \"eligible\", \"then\": \"APPROVE\",\n     \"else\": \"REVIEW\" }}]\n },\n \"integrity\": { \"algorithm\": \"sha256\" }\n}","textPreview":"{ |  \"dsl_version\": \"1.0\", |  \"rule\": { \"id\": \"credit-policy\" }, |  \"inputs\": [{ \"source\": \"clients\" }], |  \"plan\": { |   \"op\": \"project\"...","textChars":601,"textLines":24,"bbox":[72,196,540,380]}
+{"kind":"textbox","id":"sh/obq90bml","slide":3,"name":"dsl-h-0","text":"SCAN","textPreview":"SCAN","textChars":4,"textLines":1,"bbox":[694,177,190,34]}
+{"kind":"textbox","id":"sh/pcjqtg36","slide":3,"name":"dsl-b-0","text":"Lee clientes desde una fuente autorizada del catálogo.","textPreview":"Lee clientes desde una fuente autorizada del catálogo.","textChars":54,"textLines":1,"bbox":[888,177,330,66]}
+{"kind":"shape","id":"sh/hwzihwzi","slide":3,"name":"dsl-line-0","bbox":[694,262,524,0]}
+{"kind":"textbox","id":"sh/n6ls3alk","slide":3,"name":"dsl-h-1","text":"FILTER + AND","textPreview":"FILTER + AND","textChars":12,"textLines":1,"bbox":[694,281,190,34]}
+{"kind":"textbox","id":"sh/n2l4fq98","slide":3,"name":"dsl-b-1","text":"Conserva ingresos ≥ 3.000 y score ≥ 650; los nulos no califican.","textPreview":"Conserva ingresos ≥ 3.000 y score ≥ 650; los nulos no califican.","textChars":64,"textLines":1,"bbox":[888,281,330,66]}
+{"kind":"shape","id":"sh/po3ilcvm","slide":3,"name":"dsl-line-1","bbox":[694,366,524,0]}
+{"kind":"textbox","id":"sh/943mhgre","slide":3,"name":"dsl-h-2","text":"PROJECT","textPreview":"PROJECT","textChars":7,"textLines":1,"bbox":[694,385,190,34]}
+{"kind":"textbox","id":"sh/83ulovat","slide":3,"name":"dsl-b-2","text":"Define exactamente los datos que recibirá el proceso de negocio.","textPreview":"Define exactamente los datos que recibirá el proceso de negocio.","textChars":64,"textLines":1,"bbox":[888,385,330,66]}
+{"kind":"shape","id":"sh/cruhwrud","slide":3,"name":"dsl-line-2","bbox":[694,470,524,0]}
+{"kind":"textbox","id":"sh/a5c3ql8z","slide":3,"name":"dsl-h-3","text":"CASE","textPreview":"CASE","textChars":4,"textLines":1,"bbox":[694,489,190,34]}
+{"kind":"textbox","id":"sh/x8nml0ra","slide":3,"name":"dsl-b-3","text":"Asigna APPROVE al elegible y REVIEW al resto, de forma auditable.","textPreview":"Asigna APPROVE al elegible y REVIEW al resto, de forma auditable.","textChars":65,"textLines":1,"bbox":[888,489,330,66]}
+{"kind":"notes","id":"nt/ofy9wn61","slide":3,"text":"Lectura de negocio del ejemplo: se consultan clientes autorizados, se aplican simultáneamente los umbrales de ingreso y score, se limita la salida y se genera una decisión trazable.\n\n[Sources]\n- README.md — catálogo, envelope DSL y plan relacional.\n- src/rule_interpreter/dsl.py — versión e integridad SHA-256."}
+{"kind":"slide","id":"sl/jyx0ra1s","slide":4,"title":"DSL (2/2): estructura y semántica","textShapes":14}
+{"kind":"textbox","id":"sh/p0batw72","slide":4,"name":"title-7","text":"DSL (2/2): estructura y semántica","textPreview":"DSL (2/2): estructura y semántica","textChars":33,"textLines":1,"bbox":[42,34,1160,86]}
+{"kind":"shape","id":"sh/fm5c3q54","slide":4,"name":"rule-7","bbox":[42,130,1196,0]}
+{"kind":"textbox","id":"sh/0ba143al","slide":4,"name":"page-7","text":"04","textPreview":"04","textChars":2,"textLines":1,"bbox":[1184,662,54,22]}
+{"kind":"textbox","id":"sh/rm1k7yt4","slide":4,"name":"sec-num-0","text":"01","textPreview":"01","textChars":2,"textLines":1,"bbox":[42,176,76,38]}
+{"kind":"textbox","id":"sh/ql8jytsj","slide":4,"name":"sec-head-0","text":"Nodos relacionales","textPreview":"Nodos relacionales","textChars":18,"textLines":1,"bbox":[132,176,470,42]}
+{"kind":"textbox","id":"sh/doj29oba","slide":4,"name":"sec-body-0","text":"scan · join · filter · project · sort · limit","textPreview":"scan · join · filter · project · sort · limit","textChars":45,"textLines":1,"bbox":[132,234,470,86]}
+{"kind":"shape","id":"sh/qhcb6l47","slide":4,"name":"sec-line-0","bbox":[42,342,540,0]}
+{"kind":"textbox","id":"sh/3ihk3et8","slide":4,"name":"sec-num-1","text":"02","textPreview":"02","textChars":2,"textLines":1,"bbox":[658,176,76,38]}
+{"kind":"textbox","id":"sh/ih8ju9sn","slide":4,"name":"sec-head-1","text":"Nodos de expresión","textPreview":"Nodos de expresión","textChars":18,"textLines":1,"bbox":[748,176,470,42]}
+{"kind":"textbox","id":"sh/kbm987y5","slide":4,"name":"sec-body-1","text":"column · literal · compare · boolean · case · call","textPreview":"column · literal · compare · boolean · case · call","textChars":50,"textLines":1,"bbox":[748,234,470,86]}
+{"kind":"shape","id":"sh/idcb2lob","slide":4,"name":"sec-line-1","bbox":[658,342,540,0]}
+{"kind":"textbox","id":"sh/i94r6xgz","slide":4,"name":"sec-num-2","text":"03","textPreview":"03","textChars":2,"textLines":1,"bbox":[42,406,76,38]}
+{"kind":"textbox","id":"sh/jadsz2xk","slide":4,"name":"sec-head-2","text":"Tipos y nulos","textPreview":"Tipos y nulos","textChars":13,"textLines":1,"bbox":[132,406,470,42]}
+{"kind":"textbox","id":"sh/w72947yt","slide":4,"name":"sec-body-2","text":"Tipos explícitos y lógica SQL de tres valores.","textPreview":"Tipos explícitos y lógica SQL de tres valores.","textChars":46,"textLines":1,"bbox":[132,464,470,86]}
+{"kind":"shape","id":"sh/7ih83mlo","slide":4,"name":"sec-line-2","bbox":[42,572,540,0]}
+{"kind":"textbox","id":"sh/a5kr2xg3","slide":4,"name":"sec-num-3","text":"04","textPreview":"04","textChars":2,"textLines":1,"bbox":[658,406,76,38]}
+{"kind":"textbox","id":"sh/v6tsv2xo","slide":4,"name":"sec-head-3","text":"Capacidades por backend","textPreview":"Capacidades por backend","textChars":23,"textLines":1,"bbox":[748,406,470,42]}
+{"kind":"textbox","id":"sh/g36tgryd","slide":4,"name":"sec-body-3","text":"El plan falla antes de ejecutar si el motor no lo soporta.","textPreview":"El plan falla antes de ejecutar si el motor no lo soporta.","textChars":58,"textLines":1,"bbox":[748,464,470,86]}
+{"kind":"shape","id":"sh/vm1s7mlk","slide":4,"name":"sec-line-3","bbox":[658,572,540,0]}
+{"kind":"notes","id":"nt/jyx0ra1s","slide":4,"text":"Los adapters implementan la misma semántica y declaran qué nodos soportan.\n\n[Sources]\n- README.md — IR, nulos y capacidades.\n- src/rule_interpreter/executors/ — renderers DuckDB y Spark."}

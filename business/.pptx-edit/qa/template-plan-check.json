@@ -1,0 +1,10 @@
+{
+  "status": "pass",
+  "checkedAt": "2026-08-19T12:27:02.976Z",
+  "workspace": "/Users/manuelrodval/projects/toy-projects/rule-manager-interpreter/business/.pptx-edit",
+  "mapPath": "/Users/manuelrodval/projects/toy-projects/rule-manager-interpreter/business/.pptx-edit/template-frame-map.json",
+  "inspectPath": "/Users/manuelrodval/projects/toy-projects/rule-manager-interpreter/business/.pptx-edit/template-inspect/template-inspect.ndjson",
+  "sourceSlideCount": 10,
+  "issueCount": 0,
+  "issues": []
+}

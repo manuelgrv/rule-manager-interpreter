@@ -1,0 +1,95 @@
+{
+  "outputSlides": [
+    {
+      "outputSlide": 1,
+      "sourceSlide": 3,
+      "narrativeRole": "beneficios",
+      "reuseMode": "duplicate-slide",
+      "editTargets": [
+        {"sourceElementId": "sh/i9w3u58v", "action": "rewrite"},
+        {"sourceElementId": "sh/d0jax03i", "action": "rewrite"},
+        {"sourceElementId": "sh/298ryl4v", "action": "rewrite"},
+        {"sourceElementId": "sh/3ah8rqlg", "action": "rewrite"},
+        {"sourceElementId": "sh/m5cra54z", "action": "rewrite"},
+        {"sourceElementId": "sh/n6ls3alk", "action": "rewrite"},
+        {"sourceElementId": "sh/n2l4fq98", "action": "rewrite"},
+        {"sourceElementId": "sh/m1c3mlsn", "action": "rewrite"},
+        {"sourceElementId": "sh/943mhgre", "action": "rewrite"},
+        {"sourceElementId": "sh/83ulovat", "action": "rewrite"},
+        {"sourceElementId": "sh/v6l4jq94", "action": "rewrite"},
+        {"sourceElementId": "sh/a5c3ql8z", "action": "rewrite"},
+        {"sourceElementId": "sh/x8nml0ra", "action": "rewrite"},
+        {"sourceElementId": "sh/w7ulsvqp", "action": "rewrite"},
+        {"sourceElementId": "sh/ja54na9g", "action": "rewrite"}
+      ]
+    },
+    {
+      "outputSlide": 2,
+      "sourceSlide": 4,
+      "narrativeRole": "flujo técnico",
+      "reuseMode": "duplicate-slide",
+      "editTargets": [
+        {"sourceElementId": "sh/3ytsrmpw", "action": "rewrite"},
+        {"sourceElementId": "sh/0ba143al", "action": "rewrite"},
+        {"sourceElementId": "sh/ih8ju9sn", "action": "rewrite"},
+        {"sourceElementId": "sh/5cva1cfq", "action": "rewrite"},
+        {"sourceElementId": "sh/jadsz2xk", "action": "rewrite"},
+        {"sourceElementId": "sh/x8vaxsfe", "action": "rewrite"},
+        {"sourceElementId": "sh/v6tsv2xo", "action": "rewrite"},
+        {"sourceElementId": "sh/g36tgryd", "action": "rewrite"},
+        {"sourceElementId": "sh/h4fa9wfy", "action": "rewrite"},
+        {"sourceElementId": "sh/p0batw72", "action": "rewrite"},
+        {"sourceElementId": "sh/oz29krqh", "action": "rewrite"}
+      ]
+    },
+    {
+      "outputSlide": 3,
+      "sourceSlide": 5,
+      "narrativeRole": "estructura del envelope DSL",
+      "reuseMode": "duplicate-slide",
+      "editTargets": [
+        {"sourceElementId": "sh/j6dwfqds", "action": "rewrite"},
+        {"sourceElementId": "sh/cf2tcr61", "action": "rewrite"},
+        {"sourceElementId": "sh/yhkbe1o7", "action": "rewrite"},
+        {"sourceElementId": "sh/l4bupwny", "action": "rewrite"},
+        {"sourceElementId": "sh/032tgr6d", "action": "rewrite"},
+        {"sourceElementId": "sh/m5kbi1oj", "action": "rewrite"},
+        {"sourceElementId": "sh/w32dkbuh", "action": "rewrite"},
+        {"sourceElementId": "sh/ahkvi1cb", "action": "rewrite"},
+        {"sourceElementId": "sh/v2twb6dw", "action": "rewrite"},
+        {"sourceElementId": "sh/58vehgvy", "action": "rewrite"},
+        {"sourceElementId": "sh/i54fmlc7", "action": "rewrite"}
+      ]
+    },
+    {
+      "outputSlide": 4,
+      "sourceSlide": 7,
+      "narrativeRole": "nodos y semántica del DSL",
+      "reuseMode": "duplicate-slide",
+      "editTargets": [
+        {"sourceElementId": "sh/id4ju1oz", "action": "rewrite"},
+        {"sourceElementId": "sh/dcbud0ra", "action": "rewrite"},
+        {"sourceElementId": "sh/ydkbm5sv", "action": "rewrite"},
+        {"sourceElementId": "sh/zedcfa9g", "action": "rewrite"},
+        {"sourceElementId": "sh/kzmdova1", "action": "rewrite"},
+        {"sourceElementId": "sh/eh0ba1sr", "action": "rewrite"},
+        {"sourceElementId": "sh/fi9c369c", "action": "rewrite"},
+        {"sourceElementId": "sh/baxkjqlk", "action": "rewrite"},
+        {"sourceElementId": "sh/xcz2l03q", "action": "rewrite"},
+        {"sourceElementId": "sh/cbq1sv25", "action": "rewrite"},
+        {"sourceElementId": "sh/n6x0fqlo", "action": "rewrite"},
+        {"sourceElementId": "sh/p8fih03e", "action": "rewrite"},
+        {"sourceElementId": "sh/o761ov2t", "action": "rewrite"},
+        {"sourceElementId": "sh/f2d0b6lc", "action": "rewrite"}
+      ]
+    }
+  ],
+  "omittedSourceSlides": [
+    {"sourceSlide": 1, "reason": "se solicitó solo contenido, sin portada"},
+    {"sourceSlide": 2, "reason": "argumento de problema eliminado por brevedad"},
+    {"sourceSlide": 6, "reason": "evidencia de demo fuera del nuevo alcance"},
+    {"sourceSlide": 8, "reason": "detalle económico fuera del nuevo alcance"},
+    {"sourceSlide": 9, "reason": "hoja de ruta fuera del nuevo alcance"},
+    {"sourceSlide": 10, "reason": "cierre eliminado para mantener cuatro diapositivas"}
+  ]
+}

@@ -1,0 +1,13 @@
+{
+  "status": "pass",
+  "checkedAt": "2026-08-19T12:52:46.771Z",
+  "workspace": "/Users/manuelrodval/projects/toy-projects/rule-manager-interpreter/business/.pptx-edit",
+  "finalPptx": "/Users/manuelrodval/projects/toy-projects/rule-manager-interpreter/business/interprete_reglas_deterministico.pptx",
+  "starterPptx": "/Users/manuelrodval/projects/toy-projects/rule-manager-interpreter/business/.pptx-edit/template-starter.pptx",
+  "mapPath": "/Users/manuelrodval/projects/toy-projects/rule-manager-interpreter/business/.pptx-edit/template-frame-map.json",
+  "starterLayoutDir": "/Users/manuelrodval/projects/toy-projects/rule-manager-interpreter/business/.pptx-edit/template-starter-layout",
+  "finalLayoutDir": "/Users/manuelrodval/projects/toy-projects/rule-manager-interpreter/business/.pptx-edit/final-inspect/template-inspect/layouts",
+  "editDir": "/Users/manuelrodval/projects/toy-projects/rule-manager-interpreter/business/.pptx-edit",
+  "issueCount": 0,
+  "issues": []
+}

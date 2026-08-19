@@ -1,0 +1,13 @@
+{
+  "schema_version": "1",
+  "source": "clients",
+  "alias": "client",
+  "identity": ["client_id"],
+  "schema": [
+    {"name": "client_id", "type": "int64", "nullable": false},
+    {"name": "age", "type": "int32", "nullable": false},
+    {"name": "country", "type": "string", "nullable": false},
+    {"name": "customer_segment", "type": "string", "nullable": false},
+    {"name": "account_status", "type": "string", "nullable": false}
+  ]
+}

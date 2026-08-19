@@ -1,0 +1,11 @@
+Fuente: interprete_reglas_deterministico.pptx, 10 diapositivas, formato 1280 × 720.
+
+Sistema visual: fondo blanco, Helvetica Neue, títulos negros de gran escala, azul como acento, reglas grises finas, paneles pálidos y numeración inferior derecha.
+
+Patrones seleccionados:
+- Fuente 3: comparación a dos columnas; reutilizada para beneficios.
+- Fuente 4: flujo horizontal de cinco etapas; reutilizada para arquitectura.
+- Fuente 5: bloque JSON oscuro y glosario lateral; reutilizada para estructura del envelope.
+- Fuente 7: cuadrícula 2 × 2; reutilizada para nodos del lenguaje y controles semánticos.
+
+No hay marcadores estructurales vacíos ni medios externos. Se conservan formas, posiciones, tipografía, tamaños y notas con fuentes internas. Solo se reescribe texto heredado y se elimina el contenido no seleccionado mediante el starter deck.

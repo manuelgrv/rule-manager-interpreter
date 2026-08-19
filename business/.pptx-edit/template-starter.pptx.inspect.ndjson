@@ -1,0 +1,85 @@
+{"kind":"deck","id":"pr/pgrp30","name":"Deck"}
+{"kind":"layout","layoutId":"/ppt/slideMasters/slideMaster1.xml","name":"Master","type":"master"}
+{"kind":"layout","layoutId":"/ppt/slideLayouts/slideLayout1.xml","name":"Title Slide","type":"title"}
+{"kind":"slide","id":"sl/tfvkec","slide":1,"title":"La alternativa determinística gana donde importa","textShapes":15}
+{"kind":"textbox","id":"sh/4fa5sv2h","slide":1,"name":"title-3","text":"La alternativa determinística gana donde importa","textPreview":"La alternativa determinística gana donde importa","textChars":48,"textLines":1,"bbox":[42,34,1160,86]}
+{"kind":"shape","id":"sh/wzep8vad","slide":1,"name":"rule-3","bbox":[42,130,1196,0]}
+{"kind":"textbox","id":"sh/nylc3it4","slide":1,"name":"page-3","text":"03","textPreview":"03","textChars":2,"textLines":1,"bbox":[1184,662,54,22]}
+{"kind":"textbox","id":"sh/c3edgnu1","slide":1,"name":"left-label","text":"AGENTE EN PRODUCCIÓN","textPreview":"AGENTE EN PRODUCCIÓN","textChars":20,"textLines":1,"bbox":[42,170,540,34]}
+{"kind":"textbox","id":"sh/x4ne9sb6","slide":1,"name":"right-label","text":"COMPILADOR + DSL","textPreview":"COMPILADOR + DSL","textChars":16,"textLines":1,"bbox":[658,170,540,34]}
+{"kind":"shape","id":"sh/a1cvexcv","slide":1,"name":"left-body","bbox":[42,220,540,346]}
+{"kind":"shape","id":"sh/b2lw72tg","slide":1,"name":"right-body","bbox":[658,220,540,346]}
+{"kind":"textbox","id":"sh/kredk7ux","slide":1,"name":"l-0","text":"×  Interpreta en tiempo de ejecución","textPreview":"×  Interpreta en tiempo de ejecución","textChars":36,"textLines":1,"bbox":[74,255,480,42]}
+{"kind":"textbox","id":"sh/lsnedcbi","slide":1,"name":"l-1","text":"×  Salida dependiente del modelo","textPreview":"×  Salida dependiente del modelo","textChars":32,"textLines":1,"bbox":[74,312,480,42]}
+{"kind":"textbox","id":"sh/1836tkju","slide":1,"name":"l-2","text":"×  Mayor superficie de validación","textPreview":"×  Mayor superficie de validación","textChars":33,"textLines":1,"bbox":[74,369,480,42]}
+{"kind":"textbox","id":"sh/g7up0f2p","slide":1,"name":"l-3","text":"×  Costo recurrente por inferencia","textPreview":"×  Costo recurrente por inferencia","textChars":34,"textLines":1,"bbox":[74,426,480,42]}
+{"kind":"textbox","id":"sh/fmlora14","slide":1,"name":"l-4","text":"×  Explicación difícil de reproducir","textPreview":"×  Explicación difícil de reproducir","textChars":36,"textLines":1,"bbox":[74,483,480,42]}
+{"kind":"textbox","id":"sh/elcny5kj","slide":1,"name":"r-0","text":"✓  Compila antes de publicar","textPreview":"✓  Compila antes de publicar","textChars":28,"textLines":1,"bbox":[690,255,480,42]}
+{"kind":"textbox","id":"sh/pcn6xkj6","slide":1,"name":"r-1","text":"✓  Salida definida por semántica versionada","textPreview":"✓  Salida definida por semántica versionada","textChars":43,"textLines":1,"bbox":[690,312,480,42]}
+{"kind":"textbox","id":"sh/obepoz2l","slide":1,"name":"r-2","text":"✓  Lista explícita de operaciones","textPreview":"✓  Lista explícita de operaciones","textChars":33,"textLines":1,"bbox":[690,369,480,42]}
+{"kind":"textbox","id":"sh/3alovu10","slide":1,"name":"r-3","text":"✓  Ejecución local en motores existentes","textPreview":"✓  Ejecución local en motores existentes","textChars":40,"textLines":1,"bbox":[690,426,480,42]}
+{"kind":"textbox","id":"sh/29c72pkf","slide":1,"name":"r-4","text":"✓  Artefacto inspeccionable y auditable","textPreview":"✓  Artefacto inspeccionable y auditable","textChars":39,"textLines":1,"bbox":[690,483,480,42]}
+{"kind":"textbox","id":"sh/5gj6l03m","slide":1,"name":"decision","text":"Recomendación: usar IA para acelerar la autoría; usar DSL para gobernar la producción.","textPreview":"Recomendación: usar IA para acelerar la autoría; usar DSL para gobernar la producción.","textChars":86,"textLines":1,"bbox":[42,605,1150,40]}
+{"kind":"notes","id":"nt/tfvkec","slide":1,"text":"Este es el punto de venta central: no se elimina la IA, se la ubica en el lugar correcto.\n\n[Sources]\n- README.md — diseño, validación y ejecución.\n- pyproject.toml y src/rule_interpreter/ — ejecución local sin dependencia de un modelo de IA."}
+{"kind":"slide","id":"sl/86772y","slide":2,"title":"La arquitectura convierte código en un contrato controlado","textShapes":11}
+{"kind":"textbox","id":"sh/m5kjahkz","slide":2,"name":"title-4","text":"La arquitectura convierte código en un contrato controlado","textPreview":"La arquitectura convierte código en un contrato controlado","textChars":58,"textLines":1,"bbox":[42,34,1160,86]}
+{"kind":"shape","id":"sh/76dk3m1k","slide":2,"name":"rule-4","bbox":[42,130,1196,0]}
+{"kind":"textbox","id":"sh/3apgjq9w","slide":2,"name":"page-4","text":"04","textPreview":"04","textChars":2,"textLines":1,"bbox":[1184,662,54,22]}
+{"kind":"shape","id":"sh/czihwfqd","slide":2,"name":"arrow-0","bbox":[211,290,64,42]}
+{"kind":"shape","id":"sh/d0ryp0ry","slide":2,"name":"arrow-1","bbox":[445,290,64,42]}
+{"kind":"shape","id":"sh/qd0zu58n","slide":2,"name":"arrow-2","bbox":[679,290,64,42]}
+{"kind":"shape","id":"sh/ry9gna9s","slide":2,"name":"arrow-3","bbox":[913,290,64,42]}
+{"kind":"shape","id":"sh/032h0fqp","slide":2,"name":"node-0","bbox":[46,230,164,160]}
+{"kind":"textbox","id":"sh/l4bytkra","slide":2,"name":"node-text-0","text":"SQL o\nPySpark","textPreview":"SQL o | PySpark","textChars":13,"textLines":2,"bbox":[54,266,148,86]}
+{"kind":"shape","id":"sh/t4rahc7q","slide":2,"name":"node-1","bbox":[280,230,164,160]}
+{"kind":"textbox","id":"sh/s3it8765","slide":2,"name":"node-text-1","text":"Parser\nseguro","textPreview":"Parser | seguro","textChars":13,"textLines":2,"bbox":[288,266,148,86]}
+{"kind":"shape","id":"sh/r29sf2pk","slide":2,"name":"node-2","bbox":[514,230,164,160]}
+{"kind":"textbox","id":"sh/610b6xoz","slide":2,"name":"node-text-2","text":"Validador\nde políticas","textPreview":"Validador | de políticas","textChars":22,"textLines":2,"bbox":[522,266,148,86]}
+{"kind":"shape","id":"sh/18ba5c7m","slide":2,"name":"node-3","bbox":[748,230,164,160]}
+{"kind":"textbox","id":"sh/g72tc761","slide":2,"name":"node-text-3","text":"DSL JSON\nversionado","textPreview":"DSL JSON | versionado","textChars":19,"textLines":2,"bbox":[756,266,148,86]}
+{"kind":"shape","id":"sh/f6ts3mpw","slide":2,"name":"node-4","bbox":[982,230,164,160]}
+{"kind":"textbox","id":"sh/e50bahob","slide":2,"name":"node-text-4","text":"DuckDB o\nSpark","textPreview":"DuckDB o | Spark","textChars":14,"textLines":2,"bbox":[990,266,148,86]}
+{"kind":"textbox","id":"sh/hc7a9s7i","slide":2,"name":"control-a","text":"Catálogo lógico","textPreview":"Catálogo lógico","textChars":15,"textLines":1,"bbox":[294,430,180,34]}
+{"kind":"textbox","id":"sh/wbyt0nqx","slide":2,"name":"control-b","text":"Tipos y nulos","textPreview":"Tipos y nulos","textChars":13,"textLines":1,"bbox":[528,430,180,34]}
+{"kind":"textbox","id":"sh/8rm1cr25","slide":2,"name":"control-c","text":"Hash de integridad","textPreview":"Hash de integridad","textChars":18,"textLines":1,"bbox":[762,430,180,34]}
+{"kind":"textbox","id":"sh/9sv25wjq","slide":2,"name":"architecture-callout","text":"El código original no llega al ejecutor. Solo llega una estructura validada con operaciones conocidas.","textPreview":"El código original no llega al ejecutor. Solo llega una estructura validada con operaciones conocidas.","textChars":102,"textLines":1,"bbox":[200,510,880,62]}
+{"kind":"notes","id":"nt/86772y","slide":2,"text":"Explicar que el DSL no contiene SQL interpolado ni Python ejecutable.\n\n[Sources]\n- README.md — arquitectura propuesta y representación intermedia.\n- src/rule_interpreter/parsers/ y src/rule_interpreter/executors/ — implementación."}
+{"kind":"slide","id":"sl/b3arcg","slide":3,"title":"El DSL hace visible cada decisión técnica","textShapes":11}
+{"kind":"textbox","id":"sh/lcnq5cv6","slide":3,"name":"title-5","text":"El DSL hace visible cada decisión técnica","textPreview":"El DSL hace visible cada decisión técnica","textChars":41,"textLines":1,"bbox":[42,34,1160,86]}
+{"kind":"shape","id":"sh/i5gr61cz","slide":3,"name":"rule-5","bbox":[42,130,1196,0]}
+{"kind":"textbox","id":"sh/ep4r65cr","slide":3,"name":"page-5","text":"05","textPreview":"05","textChars":2,"textLines":1,"bbox":[1184,662,54,22]}
+{"kind":"shape","id":"sh/tovqx0vm","slide":3,"name":"json-panel","bbox":[42,166,600,442]}
+{"kind":"textbox","id":"sh/snm94vu1","slide":3,"name":"json","text":"{\n  \"dsl_version\": \"1.0\",\n  \"inputs\": [\"clients\", \"income\"],\n  \"plan\": {\n    \"op\": \"project\",\n    \"input\": { \"op\": \"join\", ... },\n    \"columns\": [ ... ]\n  },\n  \"integrity\": { \"algorithm\": \"sha256\" }\n}","textPreview":"{ |   \"dsl_version\": \"1.0\", |   \"inputs\": [\"clients\", \"income\"], |   \"plan\": { |     \"op\": \"project\", |     \"input\": { \"op\": \"join\", ... ...","textChars":200,"textLines":10,"bbox":[72,196,540,380]}
+{"kind":"textbox","id":"sh/rmd8vqdg","slide":3,"name":"dsl-h-0","text":"Fuentes","textPreview":"Fuentes","textChars":7,"textLines":1,"bbox":[694,177,190,34]}
+{"kind":"textbox","id":"sh/6l4r2lcv","slide":3,"name":"dsl-b-0","text":"Nombres lógicos; nunca credenciales ni rutas libres.","textPreview":"Nombres lógicos; nunca credenciales ni rutas libres.","textChars":52,"textLines":1,"bbox":[888,177,330,66]}
+{"kind":"shape","id":"sh/ne1ovyts","slide":3,"name":"dsl-line-0","bbox":[694,262,524,0]}
+{"kind":"textbox","id":"sh/cjq9gfu5","slide":3,"name":"dsl-h-1","text":"Plan","textPreview":"Plan","textChars":4,"textLines":1,"bbox":[694,281,190,34]}
+{"kind":"textbox","id":"sh/mdwryhcr","slide":3,"name":"dsl-b-1","text":"Scan, join, filter, project, sort y limit explícitos.","textPreview":"Scan, join, filter, project, sort y limit explícitos.","textChars":53,"textLines":1,"bbox":[888,281,330,66]}
+{"kind":"shape","id":"sh/ofa543ad","slide":3,"name":"dsl-line-1","bbox":[694,366,524,0]}
+{"kind":"textbox","id":"sh/8fe90rux","slide":3,"name":"dsl-h-2","text":"Semántica","textPreview":"Semántica","textChars":9,"textLines":1,"bbox":[694,385,190,34]}
+{"kind":"textbox","id":"sh/9g7q9cbi","slide":3,"name":"dsl-b-2","text":"Tipos, columnas, nulos y funciones permitidas.","textPreview":"Tipos, columnas, nulos y funciones permitidas.","textChars":46,"textLines":1,"bbox":[888,385,330,66]}
+{"kind":"shape","id":"sh/8nu5wnqh","slide":3,"name":"dsl-line-2","bbox":[694,470,524,0]}
+{"kind":"textbox","id":"sh/za5832d0","slide":3,"name":"dsl-h-3","text":"Integridad","textPreview":"Integridad","textChars":10,"textLines":1,"bbox":[694,489,190,34]}
+{"kind":"textbox","id":"sh/kbe9w7ul","slide":3,"name":"dsl-b-3","text":"Una modificación invalida el artefacto.","textPreview":"Una modificación invalida el artefacto.","textChars":39,"textLines":1,"bbox":[888,489,330,66]}
+{"kind":"notes","id":"nt/b3arcg","slide":3,"text":"Enfatizar que el JSON es un contrato de despliegue, revisión y auditoría.\n\n[Sources]\n- README.md — catálogo, envelope DSL y plan relacional.\n- src/rule_interpreter/dsl.py — versión e integridad SHA-256."}
+{"kind":"slide","id":"sl/n06kqo","slide":4,"title":"El control se diseña antes de ejecutar","textShapes":14}
+{"kind":"textbox","id":"sh/kna5o7mp","slide":4,"name":"title-7","text":"El control se diseña antes de ejecutar","textPreview":"El control se diseña antes de ejecutar","textChars":38,"textLines":1,"bbox":[42,34,1160,86]}
+{"kind":"shape","id":"sh/lo36hs3a","slide":4,"name":"rule-7","bbox":[42,130,1196,0]}
+{"kind":"textbox","id":"sh/zaxobqdc","slide":4,"name":"page-7","text":"07","textPreview":"07","textChars":2,"textLines":1,"bbox":[1184,662,54,22]}
+{"kind":"textbox","id":"sh/of6p8fet","slide":4,"name":"sec-num-0","text":"01","textPreview":"01","textChars":2,"textLines":1,"bbox":[42,176,76,38]}
+{"kind":"textbox","id":"sh/90fqhkve","slide":4,"name":"sec-head-0","text":"Sintaxis permitida","textPreview":"Sintaxis permitida","textChars":18,"textLines":1,"bbox":[132,176,470,42]}
+{"kind":"textbox","id":"sh/mdo765wn","slide":4,"name":"sec-body-0","text":"Sin imports, DDL, DML ni Python arbitrario.","textPreview":"Sin imports, DDL, DML ni Python arbitrario.","textChars":43,"textLines":1,"bbox":[132,234,470,86]}
+{"kind":"shape","id":"sh/mpcnqx4v","slide":4,"name":"sec-line-0","bbox":[42,342,540,0]}
+{"kind":"textbox","id":"sh/4jmpwbep","slide":4,"name":"sec-num-1","text":"02","textPreview":"02","textChars":2,"textLines":1,"bbox":[658,176,76,38]}
+{"kind":"textbox","id":"sh/p4v65gva","slide":4,"name":"sec-head-1","text":"Datos permitidos","textPreview":"Datos permitidos","textChars":16,"textLines":1,"bbox":[748,176,470,42]}
+{"kind":"textbox","id":"sh/50ruxkbu","slide":4,"name":"sec-body-1","text":"Fuentes y columnas registradas en catálogo.","textPreview":"Fuentes y columnas registradas en catálogo.","textChars":43,"textLines":1,"bbox":[748,234,470,86]}
+{"kind":"shape","id":"sh/rap8fq5k","slide":4,"name":"sec-line-1","bbox":[658,342,540,0]}
+{"kind":"textbox","id":"sh/jypcvato","slide":4,"name":"sec-num-2","text":"03","textPreview":"03","textChars":2,"textLines":1,"bbox":[42,406,76,38]}
+{"kind":"textbox","id":"sh/idgvm5s3","slide":4,"name":"sec-head-2","text":"Semántica estable","textPreview":"Semántica estable","textChars":17,"textLines":1,"bbox":[132,406,470,42]}
+{"kind":"textbox","id":"sh/t4ru1krq","slide":4,"name":"sec-body-2","text":"Tipos, nulos y funciones definidos en el IR.","textPreview":"Tipos, nulos y funciones definidos en el IR.","textChars":44,"textLines":1,"bbox":[132,464,470,86]}
+{"kind":"shape","id":"sh/j658b65o","slide":4,"name":"sec-line-2","bbox":[42,572,540,0]}
+{"kind":"textbox","id":"sh/r29cza90","slide":4,"name":"sec-num-3","text":"04","textPreview":"04","textChars":2,"textLines":1,"bbox":[658,406,76,38]}
+{"kind":"textbox","id":"sh/610vqpsf","slide":4,"name":"sec-head-3","text":"Artefacto verificable","textPreview":"Artefacto verificable","textChars":21,"textLines":1,"bbox":[748,406,470,42]}
+{"kind":"textbox","id":"sh/18bu54r2","slide":4,"name":"sec-body-3","text":"Versión, esquema de salida y hash de integridad.","textPreview":"Versión, esquema de salida y hash de integridad.","textChars":48,"textLines":1,"bbox":[748,464,470,86]}
+{"kind":"shape","id":"sh/vi58765s","slide":4,"name":"sec-line-3","bbox":[658,572,540,0]}
+{"kind":"notes","id":"nt/n06kqo","slide":4,"text":"Aclarar que el hash actual detecta modificaciones; la firma criptográfica de producción está en la hoja de ruta.\n\n[Sources]\n- README.md — validación, seguridad y no objetivos.\n- tests/test_sql_pipeline.py, tests/test_python_pipeline.py y tests/test_pyspark_pipeline.py — rechazo de entradas no permitidas."}

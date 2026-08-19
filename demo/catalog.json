@@ -1,0 +1,48 @@
+{
+  "catalog_version": "1.0",
+  "sources": {
+    "clients": {
+      "schema_version": "1",
+      "schema": [
+        {"name": "client_id", "type": "int64", "nullable": false},
+        {"name": "age", "type": "int32", "nullable": false},
+        {"name": "country", "type": "string", "nullable": false},
+        {"name": "customer_segment", "type": "string", "nullable": false},
+        {"name": "account_status", "type": "string", "nullable": false}
+      ],
+      "bindings": {
+        "duckdb": {"kind": "table", "database": "banking.duckdb", "name": "clients"},
+        "spark": {"kind": "parquet", "path": "parquet/clients.parquet"}
+      }
+    },
+    "income": {
+      "schema_version": "1",
+      "schema": [
+        {"name": "client_id", "type": "int64", "nullable": false},
+        {"name": "monthly_income", "type": "float64", "nullable": true},
+        {"name": "income_source", "type": "string", "nullable": true},
+        {"name": "employment_status", "type": "string", "nullable": false},
+        {"name": "months_employed", "type": "int32", "nullable": false}
+      ],
+      "bindings": {
+        "duckdb": {"kind": "table", "database": "banking.duckdb", "name": "income"},
+        "spark": {"kind": "parquet", "path": "parquet/income.parquet"}
+      }
+    },
+    "credit_profiles": {
+      "schema_version": "1",
+      "schema": [
+        {"name": "client_id", "type": "int64", "nullable": false},
+        {"name": "credit_score", "type": "int32", "nullable": true},
+        {"name": "current_debt", "type": "float64", "nullable": false},
+        {"name": "credit_utilization", "type": "float64", "nullable": true},
+        {"name": "delinquency_count", "type": "int32", "nullable": false},
+        {"name": "last_score_update", "type": "date", "nullable": true}
+      ],
+      "bindings": {
+        "duckdb": {"kind": "table", "database": "banking.duckdb", "name": "credit_profiles"},
+        "spark": {"kind": "parquet", "path": "parquet/credit_profiles.parquet"}
+      }
+    }
+  }
+}

@@ -1,0 +1,1504 @@
+{
+  "schema": "openai.presentation.layout/v4",
+  "unit": "px",
+  "slide": {
+    "aid": "sl/ofy9wn61",
+    "id": "ofy9wn61",
+    "slide": 3,
+    "layoutId": "/ppt/slideLayouts/slideLayout1.xml",
+    "layoutName": "Title Slide",
+    "layoutType": "title",
+    "masterLayoutId": "/ppt/slideMasters/slideMaster1.xml",
+    "masterLayoutName": "Master",
+    "backgroundColor": "#FFFFFF",
+    "frame": {
+      "left": 0,
+      "top": 0,
+      "width": 1280,
+      "height": 720
+    }
+  },
+  "theme": {
+    "colorSchemeName": "ChatGPT",
+    "colors": {
+      "accent1": "#156082",
+      "accent2": "#E97132",
+      "accent3": "#196B24",
+      "accent4": "#0F9ED5",
+      "accent5": "#A02B93",
+      "accent6": "#4EA72E",
+      "dk1": "#000000",
+      "lt1": "#FFFFFF",
+      "dk2": "#0E2841",
+      "lt2": "#E8E8E8",
+      "hlink": "#467886",
+      "folHlink": "#96607D"
+    },
+    "fontScheme": {
+      "name": "Office",
+      "majorFont": {
+        "latinTypeface": "Calibri Light",
+        "eastAsianTypeface": "Calibri Light",
+        "complexScriptTypeface": "Calibri Light"
+      },
+      "minorFont": {
+        "latinTypeface": "Calibri",
+        "eastAsianTypeface": "Calibri",
+        "complexScriptTypeface": "Calibri"
+      }
+    },
+    "typefaces": [
+      "Calibri",
+      "Calibri Light",
+      "Helvetica Neue"
+    ]
+  },
+  "inheritedLayers": [
+    {
+      "scope": "layout",
+      "id": "/ppt/slideLayouts/slideLayout1.xml",
+      "name": "Title Slide",
+      "type": "title",
+      "parentLayoutId": "/ppt/slideMasters/slideMaster1.xml",
+      "elements": []
+    },
+    {
+      "scope": "master",
+      "id": "/ppt/slideMasters/slideMaster1.xml",
+      "name": "Master",
+      "type": "master",
+      "elements": []
+    }
+  ],
+  "elements": [
+    {
+      "order": 1,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/w7ulsvqp",
+      "id": "17",
+      "name": "title-5",
+      "bbox": [
+        42,
+        34,
+        1160,
+        86
+      ],
+      "geometry": "rect",
+      "text": "DSL (1/2): una regla de crédito en datos",
+      "textPreview": "DSL (1/2): una regla de crédito en datos",
+      "resolvedFontSize": 24,
+      "resolvedTextStyle": {
+        "anchor": 1,
+        "fontSize": 24,
+        "typeface": "Calibri",
+        "color": "tx1",
+        "alignment": "left",
+        "verticalAlignment": "top",
+        "autoFit": "shrinkText",
+        "autoFitScale": 1,
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "DSL (1/2): una regla de crédito en datos"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "DSL (1/2): una regla de crédito en datos",
+          "resolvedTextStyle": {
+            "fontSize": 48,
+            "typeface": "Helvetica Neue",
+            "color": "#101828",
+            "bold": true,
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "DSL (1/2): una regla de crédito en datos",
+              "fontSize": 48,
+              "typeface": "Helvetica Neue",
+              "color": "#101828",
+              "bold": true
+            }
+          ],
+          "bulletCharacter": "",
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 2,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/qpczuhc7",
+      "id": "46",
+      "name": "rule-5",
+      "bbox": [
+        42,
+        130,
+        1196,
+        0
+      ],
+      "geometry": "straightConnector1",
+      "lineColor": "#B8BCC4",
+      "lineWidth": 1
+    },
+    {
+      "order": 3,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/d0jax03i",
+      "id": "3",
+      "name": "page-5",
+      "bbox": [
+        1184,
+        662,
+        54,
+        22
+      ],
+      "geometry": "rect",
+      "text": "03",
+      "textPreview": "03",
+      "resolvedFontSize": 17.71,
+      "resolvedTextStyle": {
+        "anchor": 1,
+        "fontSize": 24,
+        "typeface": "Calibri",
+        "color": "tx1",
+        "alignment": "left",
+        "verticalAlignment": "top",
+        "autoFit": "shrinkText",
+        "autoFitScale": 0.74,
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "03"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "03",
+          "resolvedTextStyle": {
+            "fontSize": 14,
+            "typeface": "Helvetica Neue",
+            "color": "#5D6675",
+            "alignment": "right"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "03",
+              "fontSize": 14,
+              "typeface": "Helvetica Neue",
+              "color": "#5D6675"
+            }
+          ],
+          "bulletCharacter": "",
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 4,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/298ryl4v",
+      "id": "4",
+      "name": "json-panel",
+      "bbox": [
+        42,
+        166,
+        600,
+        442
+      ],
+      "geometry": "roundRect",
+      "fillColor": "#111827",
+      "lineColor": "#111827",
+      "lineWidth": 1
+    },
+    {
+      "order": 5,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/3ah8rqlg",
+      "id": "5",
+      "name": "json",
+      "bbox": [
+        72,
+        196,
+        540,
+        380
+      ],
+      "geometry": "rect",
+      "text": "{\n \"dsl_version\": \"1.0\",\n \"rule\": { \"id\": \"credit-policy\" },\n \"inputs\": [{ \"source\": \"clients\" }],\n \"plan\": {\n  \"op\": \"project\",\n  \"input\": {\n   \"op\": \"filter\",\n   \"input\": { \"op\": \"scan\",\n              \"source\": \"clients\" },\n   \"where\": { \"op\": \"and\", \"args\": [\n    { \"op\": \"gte\", \"column\": \"income\",\n      \"value\": 3000 },\n    { \"op\": \"gte\", \"column\": \"credit_score\",\n      \"value\": 650 }\n   ]}\n  },\n  \"columns\": [\"client_id\", \"income\",\n   { \"as\": \"decision\", \"expr\": { \"op\": \"case\",\n     \"when\": \"eligible\", \"then\": \"APPROVE\",\n     \"else\": \"REVIEW\" }}]\n },\n \"integrity\": { \"algorithm\": \"sha256\" }\n}",
+      "textPreview": "{ |  \"dsl_version\": \"1.0\", |  \"rule\": { \"id\": \"credit-policy\" }, |  \"inputs\": [{ \"source\": \"clients\" }], |  \"plan\": { |   \"op\": \"project\"...",
+      "resolvedFontSize": 14.03,
+      "resolvedTextStyle": {
+        "anchor": 1,
+        "fontSize": 24,
+        "typeface": "Calibri",
+        "color": "tx1",
+        "alignment": "left",
+        "verticalAlignment": "top",
+        "autoFit": "shrinkText",
+        "autoFitScale": 0.58,
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 24,
+        "lines": [
+          {
+            "index": 1,
+            "text": "{"
+          },
+          {
+            "index": 2,
+            "text": " \"dsl_version\": \"1.0\","
+          },
+          {
+            "index": 3,
+            "text": " \"rule\": { \"id\": \"credit-policy\" },"
+          },
+          {
+            "index": 4,
+            "text": " \"inputs\": [{ \"source\": \"clients\" }],"
+          },
+          {
+            "index": 5,
+            "text": " \"plan\": {"
+          },
+          {
+            "index": 6,
+            "text": "  \"op\": \"project\","
+          },
+          {
+            "index": 7,
+            "text": "  \"input\": {"
+          },
+          {
+            "index": 8,
+            "text": "   \"op\": \"filter\","
+          },
+          {
+            "index": 9,
+            "text": "   \"input\": { \"op\": \"scan\","
+          },
+          {
+            "index": 10,
+            "text": "              \"source\": \"clients\" },"
+          },
+          {
+            "index": 11,
+            "text": "   \"where\": { \"op\": \"and\", \"args\": ["
+          },
+          {
+            "index": 12,
+            "text": "    { \"op\": \"gte\", \"column\": \"income\","
+          },
+          {
+            "index": 13,
+            "text": "      \"value\": 3000 },"
+          },
+          {
+            "index": 14,
+            "text": "    { \"op\": \"gte\", \"column\": \"credit_score\","
+          },
+          {
+            "index": 15,
+            "text": "      \"value\": 650 }"
+          },
+          {
+            "index": 16,
+            "text": "   ]}"
+          },
+          {
+            "index": 17,
+            "text": "  },"
+          },
+          {
+            "index": 18,
+            "text": "  \"columns\": [\"client_id\", \"income\","
+          },
+          {
+            "index": 19,
+            "text": "   { \"as\": \"decision\", \"expr\": { \"op\": \"case\","
+          },
+          {
+            "index": 20,
+            "text": "     \"when\": \"eligible\", \"then\": \"APPROVE\","
+          },
+          {
+            "index": 21,
+            "text": "     \"else\": \"REVIEW\" }}]"
+          },
+          {
+            "index": 22,
+            "text": " },"
+          },
+          {
+            "index": 23,
+            "text": " \"integrity\": { \"algorithm\": \"sha256\" }"
+          },
+          {
+            "index": 24,
+            "text": "}"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "{",
+          "resolvedTextStyle": {
+            "fontSize": 22,
+            "typeface": "Helvetica Neue",
+            "color": "#E5F4FF",
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "{",
+              "fontSize": 22,
+              "typeface": "Helvetica Neue",
+              "color": "#E5F4FF"
+            }
+          ],
+          "bulletCharacter": "",
+          "marginLeft": 0
+        },
+        {
+          "index": 2,
+          "text": " \"dsl_version\": \"1.0\",",
+          "resolvedTextStyle": {
+            "fontSize": 22,
+            "typeface": "Helvetica Neue",
+            "color": "#E5F4FF",
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": " \"dsl_version\": \"1.0\",",
+              "fontSize": 22,
+              "typeface": "Helvetica Neue",
+              "color": "#E5F4FF"
+            }
+          ],
+          "bulletCharacter": "",
+          "marginLeft": 0
+        },
+        {
+          "index": 3,
+          "text": " \"rule\": { \"id\": \"credit-policy\" },",
+          "resolvedTextStyle": {
+            "fontSize": 22,
+            "typeface": "Helvetica Neue",
+            "color": "#E5F4FF",
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": " \"rule\": { \"id\": \"credit-policy\" },",
+              "fontSize": 22,
+              "typeface": "Helvetica Neue",
+              "color": "#E5F4FF"
+            }
+          ],
+          "bulletCharacter": "",
+          "marginLeft": 0
+        },
+        {
+          "index": 4,
+          "text": " \"inputs\": [{ \"source\": \"clients\" }],",
+          "resolvedTextStyle": {
+            "fontSize": 22,
+            "typeface": "Helvetica Neue",
+            "color": "#E5F4FF",
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": " \"inputs\": [{ \"source\": \"clients\" }],",
+              "fontSize": 22,
+              "typeface": "Helvetica Neue",
+              "color": "#E5F4FF"
+            }
+          ],
+          "bulletCharacter": "",
+          "marginLeft": 0
+        },
+        {
+          "index": 5,
+          "text": " \"plan\": {",
+          "resolvedTextStyle": {
+            "fontSize": 22,
+            "typeface": "Helvetica Neue",
+            "color": "#E5F4FF",
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": " \"plan\": {",
+              "fontSize": 22,
+              "typeface": "Helvetica Neue",
+              "color": "#E5F4FF"
+            }
+          ],
+          "bulletCharacter": "",
+          "marginLeft": 0
+        },
+        {
+          "index": 6,
+          "text": "  \"op\": \"project\",",
+          "resolvedTextStyle": {
+            "fontSize": 22,
+            "typeface": "Helvetica Neue",
+            "color": "#E5F4FF",
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "  \"op\": \"project\",",
+              "fontSize": 22,
+              "typeface": "Helvetica Neue",
+              "color": "#E5F4FF"
+            }
+          ],
+          "bulletCharacter": "",
+          "marginLeft": 0
+        },
+        {
+          "index": 7,
+          "text": "  \"input\": {",
+          "resolvedTextStyle": {
+            "fontSize": 22,
+            "typeface": "Helvetica Neue",
+            "color": "#E5F4FF",
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "  \"input\": {",
+              "fontSize": 22,
+              "typeface": "Helvetica Neue",
+              "color": "#E5F4FF"
+            }
+          ],
+          "bulletCharacter": "",
+          "marginLeft": 0
+        },
+        {
+          "index": 8,
+          "text": "   \"op\": \"filter\",",
+          "resolvedTextStyle": {
+            "fontSize": 22,
+            "typeface": "Helvetica Neue",
+            "color": "#E5F4FF",
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "   \"op\": \"filter\",",
+              "fontSize": 22,
+              "typeface": "Helvetica Neue",
+              "color": "#E5F4FF"
+            }
+          ],
+          "bulletCharacter": "",
+          "marginLeft": 0
+        },
+        {
+          "index": 9,
+          "text": "   \"input\": { \"op\": \"scan\",",
+          "resolvedTextStyle": {
+            "fontSize": 22,
+            "typeface": "Helvetica Neue",
+            "color": "#E5F4FF",
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "   \"input\": { \"op\": \"scan\",",
+              "fontSize": 22,
+              "typeface": "Helvetica Neue",
+              "color": "#E5F4FF"
+            }
+          ],
+          "bulletCharacter": "",
+          "marginLeft": 0
+        },
+        {
+          "index": 10,
+          "text": "              \"source\": \"clients\" },",
+          "resolvedTextStyle": {
+            "fontSize": 22,
+            "typeface": "Helvetica Neue",
+            "color": "#E5F4FF",
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "              \"source\": \"clients\" },",
+              "fontSize": 22,
+              "typeface": "Helvetica Neue",
+              "color": "#E5F4FF"
+            }
+          ],
+          "bulletCharacter": "",
+          "marginLeft": 0
+        },
+        {
+          "index": 11,
+          "text": "   \"where\": { \"op\": \"and\", \"args\": [",
+          "resolvedTextStyle": {
+            "fontSize": 22,
+            "typeface": "Helvetica Neue",
+            "color": "#E5F4FF",
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "   \"where\": { \"op\": \"and\", \"args\": [",
+              "fontSize": 22,
+              "typeface": "Helvetica Neue",
+              "color": "#E5F4FF"
+            }
+          ],
+          "bulletCharacter": "",
+          "marginLeft": 0
+        },
+        {
+          "index": 12,
+          "text": "    { \"op\": \"gte\", \"column\": \"income\",",
+          "resolvedTextStyle": {
+            "fontSize": 22,
+            "typeface": "Helvetica Neue",
+            "color": "#E5F4FF",
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "    { \"op\": \"gte\", \"column\": \"income\",",
+              "fontSize": 22,
+              "typeface": "Helvetica Neue",
+              "color": "#E5F4FF"
+            }
+          ],
+          "bulletCharacter": "",
+          "marginLeft": 0
+        },
+        {
+          "index": 13,
+          "text": "      \"value\": 3000 },",
+          "resolvedTextStyle": {
+            "fontSize": 22,
+            "typeface": "Helvetica Neue",
+            "color": "#E5F4FF",
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "      \"value\": 3000 },",
+              "fontSize": 22,
+              "typeface": "Helvetica Neue",
+              "color": "#E5F4FF"
+            }
+          ],
+          "bulletCharacter": "",
+          "marginLeft": 0
+        },
+        {
+          "index": 14,
+          "text": "    { \"op\": \"gte\", \"column\": \"credit_score\",",
+          "resolvedTextStyle": {
+            "fontSize": 22,
+            "typeface": "Helvetica Neue",
+            "color": "#E5F4FF",
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "    { \"op\": \"gte\", \"column\": \"credit_score\",",
+              "fontSize": 22,
+              "typeface": "Helvetica Neue",
+              "color": "#E5F4FF"
+            }
+          ],
+          "bulletCharacter": "",
+          "marginLeft": 0
+        },
+        {
+          "index": 15,
+          "text": "      \"value\": 650 }",
+          "resolvedTextStyle": {
+            "fontSize": 22,
+            "typeface": "Helvetica Neue",
+            "color": "#E5F4FF",
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "      \"value\": 650 }",
+              "fontSize": 22,
+              "typeface": "Helvetica Neue",
+              "color": "#E5F4FF"
+            }
+          ],
+          "bulletCharacter": "",
+          "marginLeft": 0
+        },
+        {
+          "index": 16,
+          "text": "   ]}",
+          "resolvedTextStyle": {
+            "fontSize": 22,
+            "typeface": "Helvetica Neue",
+            "color": "#E5F4FF",
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "   ]}",
+              "fontSize": 22,
+              "typeface": "Helvetica Neue",
+              "color": "#E5F4FF"
+            }
+          ],
+          "bulletCharacter": "",
+          "marginLeft": 0
+        },
+        {
+          "index": 17,
+          "text": "  },",
+          "resolvedTextStyle": {
+            "fontSize": 22,
+            "typeface": "Helvetica Neue",
+            "color": "#E5F4FF",
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "  },",
+              "fontSize": 22,
+              "typeface": "Helvetica Neue",
+              "color": "#E5F4FF"
+            }
+          ],
+          "bulletCharacter": "",
+          "marginLeft": 0
+        },
+        {
+          "index": 18,
+          "text": "  \"columns\": [\"client_id\", \"income\",",
+          "resolvedTextStyle": {
+            "fontSize": 22,
+            "typeface": "Helvetica Neue",
+            "color": "#E5F4FF",
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "  \"columns\": [\"client_id\", \"income\",",
+              "fontSize": 22,
+              "typeface": "Helvetica Neue",
+              "color": "#E5F4FF"
+            }
+          ],
+          "bulletCharacter": "",
+          "marginLeft": 0
+        },
+        {
+          "index": 19,
+          "text": "   { \"as\": \"decision\", \"expr\": { \"op\": \"case\",",
+          "resolvedTextStyle": {
+            "fontSize": 22,
+            "typeface": "Helvetica Neue",
+            "color": "#E5F4FF",
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "   { \"as\": \"decision\", \"expr\": { \"op\": \"case\",",
+              "fontSize": 22,
+              "typeface": "Helvetica Neue",
+              "color": "#E5F4FF"
+            }
+          ],
+          "bulletCharacter": "",
+          "marginLeft": 0
+        },
+        {
+          "index": 20,
+          "text": "     \"when\": \"eligible\", \"then\": \"APPROVE\",",
+          "resolvedTextStyle": {
+            "fontSize": 22,
+            "typeface": "Helvetica Neue",
+            "color": "#E5F4FF",
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "     \"when\": \"eligible\", \"then\": \"APPROVE\",",
+              "fontSize": 22,
+              "typeface": "Helvetica Neue",
+              "color": "#E5F4FF"
+            }
+          ],
+          "bulletCharacter": "",
+          "marginLeft": 0
+        },
+        {
+          "index": 21,
+          "text": "     \"else\": \"REVIEW\" }}]",
+          "resolvedTextStyle": {
+            "fontSize": 22,
+            "typeface": "Helvetica Neue",
+            "color": "#E5F4FF",
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "     \"else\": \"REVIEW\" }}]",
+              "fontSize": 22,
+              "typeface": "Helvetica Neue",
+              "color": "#E5F4FF"
+            }
+          ],
+          "bulletCharacter": "",
+          "marginLeft": 0
+        },
+        {
+          "index": 22,
+          "text": " },",
+          "resolvedTextStyle": {
+            "fontSize": 22,
+            "typeface": "Helvetica Neue",
+            "color": "#E5F4FF",
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": " },",
+              "fontSize": 22,
+              "typeface": "Helvetica Neue",
+              "color": "#E5F4FF"
+            }
+          ],
+          "bulletCharacter": "",
+          "marginLeft": 0
+        },
+        {
+          "index": 23,
+          "text": " \"integrity\": { \"algorithm\": \"sha256\" }",
+          "resolvedTextStyle": {
+            "fontSize": 22,
+            "typeface": "Helvetica Neue",
+            "color": "#E5F4FF",
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": " \"integrity\": { \"algorithm\": \"sha256\" }",
+              "fontSize": 22,
+              "typeface": "Helvetica Neue",
+              "color": "#E5F4FF"
+            }
+          ],
+          "bulletCharacter": "",
+          "marginLeft": 0
+        },
+        {
+          "index": 24,
+          "text": "}",
+          "resolvedTextStyle": {
+            "fontSize": 22,
+            "typeface": "Helvetica Neue",
+            "color": "#E5F4FF",
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "}",
+              "fontSize": 22,
+              "typeface": "Helvetica Neue",
+              "color": "#E5F4FF"
+            }
+          ],
+          "bulletCharacter": "",
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 6,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/obq90bml",
+      "id": "6",
+      "name": "dsl-h-0",
+      "bbox": [
+        694,
+        177,
+        190,
+        34
+      ],
+      "geometry": "rect",
+      "text": "SCAN",
+      "textPreview": "SCAN",
+      "resolvedFontSize": 20.33,
+      "resolvedTextStyle": {
+        "anchor": 1,
+        "fontSize": 24,
+        "typeface": "Calibri",
+        "color": "tx1",
+        "alignment": "left",
+        "verticalAlignment": "top",
+        "autoFit": "shrinkText",
+        "autoFitScale": 0.85,
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "SCAN"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "SCAN",
+          "resolvedTextStyle": {
+            "fontSize": 24,
+            "typeface": "Helvetica Neue",
+            "color": "#3D8DFF",
+            "bold": true,
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "SCAN",
+              "fontSize": 24,
+              "typeface": "Helvetica Neue",
+              "color": "#3D8DFF",
+              "bold": true
+            }
+          ],
+          "bulletCharacter": "",
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 7,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/pcjqtg36",
+      "id": "7",
+      "name": "dsl-b-0",
+      "bbox": [
+        888,
+        177,
+        330,
+        66
+      ],
+      "geometry": "rect",
+      "text": "Lee clientes desde una fuente autorizada del catálogo.",
+      "textPreview": "Lee clientes desde una fuente autorizada del catálogo.",
+      "resolvedFontSize": 24,
+      "resolvedTextStyle": {
+        "anchor": 1,
+        "fontSize": 24,
+        "typeface": "Calibri",
+        "color": "tx1",
+        "alignment": "left",
+        "verticalAlignment": "top",
+        "autoFit": "shrinkText",
+        "autoFitScale": 1,
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 2,
+        "lines": [
+          {
+            "index": 1,
+            "text": "Lee clientes desde una fuente"
+          },
+          {
+            "index": 2,
+            "text": "autorizada del catálogo."
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "Lee clientes desde una fuente autorizada del catálogo.",
+          "resolvedTextStyle": {
+            "fontSize": 20,
+            "typeface": "Helvetica Neue",
+            "color": "#5D6675",
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "Lee clientes desde una fuente autorizada del catálogo.",
+              "fontSize": 20,
+              "typeface": "Helvetica Neue",
+              "color": "#5D6675"
+            }
+          ],
+          "bulletCharacter": "",
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 8,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/xoruhkje",
+      "id": "52",
+      "name": "dsl-line-0",
+      "bbox": [
+        694,
+        262,
+        524,
+        0
+      ],
+      "geometry": "straightConnector1",
+      "lineColor": "#B8BCC4",
+      "lineWidth": 1
+    },
+    {
+      "order": 9,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/n6ls3alk",
+      "id": "9",
+      "name": "dsl-h-1",
+      "bbox": [
+        694,
+        281,
+        190,
+        34
+      ],
+      "geometry": "rect",
+      "text": "FILTER + AND",
+      "textPreview": "FILTER + AND",
+      "resolvedFontSize": 20.33,
+      "resolvedTextStyle": {
+        "anchor": 1,
+        "fontSize": 24,
+        "typeface": "Calibri",
+        "color": "tx1",
+        "alignment": "left",
+        "verticalAlignment": "top",
+        "autoFit": "shrinkText",
+        "autoFitScale": 0.85,
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "FILTER + AND"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "FILTER + AND",
+          "resolvedTextStyle": {
+            "fontSize": 24,
+            "typeface": "Helvetica Neue",
+            "color": "#3D8DFF",
+            "bold": true,
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "FILTER + AND",
+              "fontSize": 24,
+              "typeface": "Helvetica Neue",
+              "color": "#3D8DFF",
+              "bold": true
+            }
+          ],
+          "bulletCharacter": "",
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 10,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/n2l4fq98",
+      "id": "10",
+      "name": "dsl-b-1",
+      "bbox": [
+        888,
+        281,
+        330,
+        66
+      ],
+      "geometry": "rect",
+      "text": "Conserva ingresos ≥ 3.000 y score ≥ 650; los nulos no califican.",
+      "textPreview": "Conserva ingresos ≥ 3.000 y score ≥ 650; los nulos no califican.",
+      "resolvedFontSize": 24,
+      "resolvedTextStyle": {
+        "anchor": 1,
+        "fontSize": 24,
+        "typeface": "Calibri",
+        "color": "tx1",
+        "alignment": "left",
+        "verticalAlignment": "top",
+        "autoFit": "shrinkText",
+        "autoFitScale": 1,
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 2,
+        "lines": [
+          {
+            "index": 1,
+            "text": "Conserva ingresos ≥ 3.000 y score"
+          },
+          {
+            "index": 2,
+            "text": "≥ 650; los nulos no califican."
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "Conserva ingresos ≥ 3.000 y score ≥ 650; los nulos no califican.",
+          "resolvedTextStyle": {
+            "fontSize": 20,
+            "typeface": "Helvetica Neue",
+            "color": "#5D6675",
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "Conserva ingresos ≥ 3.000 y score ≥ 650; los nulos no califican.",
+              "fontSize": 20,
+              "typeface": "Helvetica Neue",
+              "color": "#5D6675"
+            }
+          ],
+          "bulletCharacter": "",
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 11,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/mxgb250r",
+      "id": "55",
+      "name": "dsl-line-1",
+      "bbox": [
+        694,
+        366,
+        524,
+        0
+      ],
+      "geometry": "straightConnector1",
+      "lineColor": "#B8BCC4",
+      "lineWidth": 1
+    },
+    {
+      "order": 12,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/943mhgre",
+      "id": "12",
+      "name": "dsl-h-2",
+      "bbox": [
+        694,
+        385,
+        190,
+        34
+      ],
+      "geometry": "rect",
+      "text": "PROJECT",
+      "textPreview": "PROJECT",
+      "resolvedFontSize": 20.33,
+      "resolvedTextStyle": {
+        "anchor": 1,
+        "fontSize": 24,
+        "typeface": "Calibri",
+        "color": "tx1",
+        "alignment": "left",
+        "verticalAlignment": "top",
+        "autoFit": "shrinkText",
+        "autoFitScale": 0.85,
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "PROJECT"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "PROJECT",
+          "resolvedTextStyle": {
+            "fontSize": 24,
+            "typeface": "Helvetica Neue",
+            "color": "#3D8DFF",
+            "bold": true,
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "PROJECT",
+              "fontSize": 24,
+              "typeface": "Helvetica Neue",
+              "color": "#3D8DFF",
+              "bold": true
+            }
+          ],
+          "bulletCharacter": "",
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 13,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/83ulovat",
+      "id": "13",
+      "name": "dsl-b-2",
+      "bbox": [
+        888,
+        385,
+        330,
+        66
+      ],
+      "geometry": "rect",
+      "text": "Define exactamente los datos que recibirá el proceso de negocio.",
+      "textPreview": "Define exactamente los datos que recibirá el proceso de negocio.",
+      "resolvedFontSize": 24,
+      "resolvedTextStyle": {
+        "anchor": 1,
+        "fontSize": 24,
+        "typeface": "Calibri",
+        "color": "tx1",
+        "alignment": "left",
+        "verticalAlignment": "top",
+        "autoFit": "shrinkText",
+        "autoFitScale": 1,
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 2,
+        "lines": [
+          {
+            "index": 1,
+            "text": "Define exactamente los datos que"
+          },
+          {
+            "index": 2,
+            "text": "recibirá el proceso de negocio."
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "Define exactamente los datos que recibirá el proceso de negocio.",
+          "resolvedTextStyle": {
+            "fontSize": 20,
+            "typeface": "Helvetica Neue",
+            "color": "#5D6675",
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "Define exactamente los datos que recibirá el proceso de negocio.",
+              "fontSize": 20,
+              "typeface": "Helvetica Neue",
+              "color": "#5D6675"
+            }
+          ],
+          "bulletCharacter": "",
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 14,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/7utcne1g",
+      "id": "58",
+      "name": "dsl-line-2",
+      "bbox": [
+        694,
+        470,
+        524,
+        0
+      ],
+      "geometry": "straightConnector1",
+      "lineColor": "#B8BCC4",
+      "lineWidth": 1
+    },
+    {
+      "order": 15,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/a5c3ql8z",
+      "id": "15",
+      "name": "dsl-h-3",
+      "bbox": [
+        694,
+        489,
+        190,
+        34
+      ],
+      "geometry": "rect",
+      "text": "CASE",
+      "textPreview": "CASE",
+      "resolvedFontSize": 20.33,
+      "resolvedTextStyle": {
+        "anchor": 1,
+        "fontSize": 24,
+        "typeface": "Calibri",
+        "color": "tx1",
+        "alignment": "left",
+        "verticalAlignment": "top",
+        "autoFit": "shrinkText",
+        "autoFitScale": 0.85,
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "CASE"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "CASE",
+          "resolvedTextStyle": {
+            "fontSize": 24,
+            "typeface": "Helvetica Neue",
+            "color": "#3D8DFF",
+            "bold": true,
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "CASE",
+              "fontSize": 24,
+              "typeface": "Helvetica Neue",
+              "color": "#3D8DFF",
+              "bold": true
+            }
+          ],
+          "bulletCharacter": "",
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 16,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/x8nml0ra",
+      "id": "16",
+      "name": "dsl-b-3",
+      "bbox": [
+        888,
+        489,
+        330,
+        66
+      ],
+      "geometry": "rect",
+      "text": "Asigna APPROVE al elegible y REVIEW al resto, de forma auditable.",
+      "textPreview": "Asigna APPROVE al elegible y REVIEW al resto, de forma auditable.",
+      "resolvedFontSize": 22.63,
+      "resolvedTextStyle": {
+        "anchor": 1,
+        "fontSize": 24,
+        "typeface": "Calibri",
+        "color": "tx1",
+        "alignment": "left",
+        "verticalAlignment": "top",
+        "autoFit": "shrinkText",
+        "autoFitScale": 0.94,
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 3,
+        "lines": [
+          {
+            "index": 1,
+            "text": "Asigna APPROVE al elegible y"
+          },
+          {
+            "index": 2,
+            "text": "REVIEW al resto, de forma"
+          },
+          {
+            "index": 3,
+            "text": "auditable."
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "Asigna APPROVE al elegible y REVIEW al resto, de forma auditable.",
+          "resolvedTextStyle": {
+            "fontSize": 20,
+            "typeface": "Helvetica Neue",
+            "color": "#5D6675",
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "Asigna APPROVE al elegible y REVIEW al resto, de forma auditable.",
+              "fontSize": 20,
+              "typeface": "Helvetica Neue",
+              "color": "#5D6675"
+            }
+          ],
+          "bulletCharacter": "",
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    }
+  ],
+  "composeRuns": []
+}

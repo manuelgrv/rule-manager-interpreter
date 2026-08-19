@@ -1,0 +1,56 @@
+{
+  "sourcePptx": "/Users/manuelrodval/projects/toy-projects/rule-manager-interpreter/business/interprete_reglas_deterministico.pptx",
+  "mapPath": "/Users/manuelrodval/projects/toy-projects/rule-manager-interpreter/business/.pptx-edit/template-frame-map.json",
+  "output": "/Users/manuelrodval/projects/toy-projects/rule-manager-interpreter/business/.pptx-edit/template-starter.pptx",
+  "outputBytes": 25058,
+  "sourceSlideCount": 10,
+  "slideCount": 4,
+  "previewDir": "/Users/manuelrodval/projects/toy-projects/rule-manager-interpreter/business/.pptx-edit/template-starter-preview",
+  "layoutDir": "/Users/manuelrodval/projects/toy-projects/rule-manager-interpreter/business/.pptx-edit/template-starter-layout",
+  "slides": [
+    {
+      "outputSlide": 1,
+      "sourceSlide": 3,
+      "narrativeRole": "beneficios",
+      "reuseMode": "duplicate-slide",
+      "editTargetCount": 15,
+      "previewPath": "/Users/manuelrodval/projects/toy-projects/rule-manager-interpreter/business/.pptx-edit/template-starter-preview/starter-slide-01.png",
+      "previewRelativePath": "template-starter-preview/starter-slide-01.png",
+      "layoutPath": "/Users/manuelrodval/projects/toy-projects/rule-manager-interpreter/business/.pptx-edit/template-starter-layout/starter-slide-01.layout.json",
+      "layoutRelativePath": "template-starter-layout/starter-slide-01.layout.json"
+    },
+    {
+      "outputSlide": 2,
+      "sourceSlide": 4,
+      "narrativeRole": "flujo técnico",
+      "reuseMode": "duplicate-slide",
+      "editTargetCount": 11,
+      "previewPath": "/Users/manuelrodval/projects/toy-projects/rule-manager-interpreter/business/.pptx-edit/template-starter-preview/starter-slide-02.png",
+      "previewRelativePath": "template-starter-preview/starter-slide-02.png",
+      "layoutPath": "/Users/manuelrodval/projects/toy-projects/rule-manager-interpreter/business/.pptx-edit/template-starter-layout/starter-slide-02.layout.json",
+      "layoutRelativePath": "template-starter-layout/starter-slide-02.layout.json"
+    },
+    {
+      "outputSlide": 3,
+      "sourceSlide": 5,
+      "narrativeRole": "estructura del envelope DSL",
+      "reuseMode": "duplicate-slide",
+      "editTargetCount": 11,
+      "previewPath": "/Users/manuelrodval/projects/toy-projects/rule-manager-interpreter/business/.pptx-edit/template-starter-preview/starter-slide-03.png",
+      "previewRelativePath": "template-starter-preview/starter-slide-03.png",
+      "layoutPath": "/Users/manuelrodval/projects/toy-projects/rule-manager-interpreter/business/.pptx-edit/template-starter-layout/starter-slide-03.layout.json",
+      "layoutRelativePath": "template-starter-layout/starter-slide-03.layout.json"
+    },
+    {
+      "outputSlide": 4,
+      "sourceSlide": 7,
+      "narrativeRole": "nodos y semántica del DSL",
+      "reuseMode": "duplicate-slide",
+      "editTargetCount": 14,
+      "previewPath": "/Users/manuelrodval/projects/toy-projects/rule-manager-interpreter/business/.pptx-edit/template-starter-preview/starter-slide-04.png",
+      "previewRelativePath": "template-starter-preview/starter-slide-04.png",
+      "layoutPath": "/Users/manuelrodval/projects/toy-projects/rule-manager-interpreter/business/.pptx-edit/template-starter-layout/starter-slide-04.layout.json",
+      "layoutRelativePath": "template-starter-layout/starter-slide-04.layout.json"
+    }
+  ]
+}
