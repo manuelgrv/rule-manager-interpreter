@@ -1,0 +1,211 @@
+specification {
+  element actor {
+    style {
+      shape person
+      color amber
+    }
+  }
+
+  element system
+  element container
+  element component
+
+  relationship uses
+  relationship publishes
+  relationship promotes
+  relationship reads
+}
+
+model {
+  actor risk_specialist 'Especialista de Riesgos' {
+    description 'Diseña, prueba y publica reglas de riesgo.'
+  }
+
+  actor productive_process 'Proceso productivo o de desarrollo' {
+    description 'Job, workflow, notebook o servicio que necesita evaluar reglas.'
+  }
+
+  system databricks 'Plataforma Databricks' {
+    description 'Entorno de autoría, gobierno, almacenamiento y ejecución de reglas.'
+    style {
+      icon azure:azure-databricks
+      color red
+    }
+
+    container rule_app 'Databricks App — Rule Manager' {
+      description 'Permite diseñar reglas mediante UI o cargar archivos .sql/.py.'
+      style {
+        shape browser
+        icon azure:azure-databricks
+      }
+
+      component rule_ui 'Editor visual de reglas' {
+        description 'Experiencia guiada para usuarios de negocio.'
+      }
+
+      component file_upload 'Carga de SQL / Python' {
+        description 'Recibe reglas existentes como archivos .sql o .py.'
+        style {
+          icon tech:python
+        }
+      }
+
+      component publication_service 'Servicio de compilación y publicación' {
+        description 'Invoca la librería, valida el DSL y registra el ejercicio versionado.'
+      }
+    }
+
+    container unity_catalog 'Unity Catalog' {
+      description 'Gobierno central de datos, permisos, linaje y auditoría.'
+      style {
+        icon bootstrap:database-lock
+      }
+
+      component edv 'EDV — Experimentación' {
+        description 'Catálogo para diseño, pruebas y ejecuciones no productivas.'
+        technology 'Unity Catalog'
+        style {
+          shape storage
+          icon bootstrap:table
+          color amber
+        }
+      }
+
+      component rdv 'RDV' {
+        description 'Tabla de ingreso: una fila por ejercicio versionado. Conserva rule_id, version, DSL, estado, usuario de carga, timestamps, lenguaje y archivo de origen, versión del compilador, hash, comentarios y metadata de aprobación.'
+        technology 'Delta table / Databricks SQL Warehouse'
+        style {
+          shape storage
+          icon bootstrap:table
+          color blue
+        }
+      }
+
+      component ddv 'DDV' {
+        description 'Tabla gobernada de reglas aprobadas, lista para consumo.'
+        technology 'Delta table / Databricks SQL Warehouse'
+        style {
+          shape storage
+          icon bootstrap:table
+          color green
+        }
+      }
+    }
+
+    container execution_compute 'Compute de ejecución' {
+      description 'Jobs, workflows, notebooks o servicios que ejecutan reglas a demanda.'
+      technology 'Databricks Runtime / SQL Warehouse'
+      style {
+        icon tech:apache-spark
+      }
+    }
+  }
+
+  system artifactory 'Artifactory' {
+    description 'Repositorio corporativo de artefactos versionados.'
+    style {
+      icon tech:jfrog
+      color green
+    }
+
+    container interpreter_library 'Librería Rule Interpreter' {
+      description 'Paquete Python versionado consumido desde Databricks.'
+      style {
+        icon tech:python
+      }
+
+      component compiler 'Compilador a DSL' {
+        description 'Convierte UI, SQL o Python a un DSL determinístico y validado.'
+        style {
+          icon tech:python
+        }
+      }
+
+      component dsl_executor 'Ejecutor de DSL' {
+        description 'Lee una versión de regla y compila el DSL al backend compatible.'
+        style {
+          icon tech:python
+        }
+      }
+    }
+  }
+
+  risk_specialist -[uses]-> databricks.rule_app 'Diseña en la UI o carga .sql/.py'
+  databricks.rule_app.rule_ui -> databricks.rule_app.publication_service 'Envía una definición estructurada'
+  databricks.rule_app.file_upload -> databricks.rule_app.publication_service 'Envía SQL o Python'
+  databricks.rule_app.publication_service -> artifactory.interpreter_library.compiler 'Usa la versión aprobada de la librería'
+  artifactory.interpreter_library.compiler -> databricks.unity_catalog.rdv 'Genera y publica DSL validado'
+  databricks.unity_catalog.rdv -[promotes]-> databricks.unity_catalog.ddv 'Promoción directa y gobernada'
+
+  productive_process -[uses]-> databricks.execution_compute 'Solicita evaluar una regla'
+  databricks.execution_compute -> artifactory.interpreter_library.dsl_executor 'Carga la función de ejecución'
+  artifactory.interpreter_library.dsl_executor -[reads]-> databricks.unity_catalog.ddv 'Lee el DSL versionado aprobado'
+  artifactory.interpreter_library.dsl_executor -> databricks.execution_compute 'Devuelve un plan compatible para ejecutar'
+
+  databricks.unity_catalog.edv -> artifactory.interpreter_library.dsl_executor 'Prueba reglas y nuevas versiones'
+  artifactory.interpreter_library.dsl_executor -[reads]-> databricks.unity_catalog.edv 'Usa datos y configuración experimental'
+}
+
+views {
+  dynamic view end_to_end_flow {
+    title 'Flujo completo de gestión y ejecución de reglas'
+    variant sequence
+    risk_specialist -> databricks.rule_app '1. Diseña una regla en la UI o carga .sql/.py'
+    databricks.rule_app -> databricks.unity_catalog.edv '2. Prueba la regla en experimentación'
+    databricks.rule_app -> artifactory.interpreter_library.compiler '3. Invoca el compilador aprobado'
+    artifactory.interpreter_library.compiler -> databricks.unity_catalog.rdv '4. Registra el ejercicio y su DSL versionado'
+    databricks.unity_catalog.rdv -> databricks.unity_catalog.ddv '5. Promueve la regla validada'
+    productive_process -> databricks.execution_compute '6. Solicita ejecutar una regla'
+    databricks.execution_compute -> artifactory.interpreter_library.dsl_executor '7. Carga la función ejecutora'
+    artifactory.interpreter_library.dsl_executor -> databricks.unity_catalog.ddv '8. Lee el DSL aprobado'
+    artifactory.interpreter_library.dsl_executor -> databricks.execution_compute '9. Devuelve y ejecuta el plan compatible'
+  }
+
+  view architecture {
+    title 'Arquitectura Databricks para gestión de reglas'
+    include *
+    autoLayout LeftRight
+  }
+
+  view publication {
+    title 'Publicación de una regla'
+    include risk_specialist
+    include databricks.rule_app.*
+    include artifactory.interpreter_library.compiler
+    include databricks.unity_catalog.rdv
+    include databricks.unity_catalog.ddv
+    include risk_specialist -> databricks.rule_app
+    include databricks.rule_app.* -> *
+    include * -> artifactory.interpreter_library.compiler
+    include artifactory.interpreter_library.compiler -> databricks.unity_catalog.rdv
+    include databricks.unity_catalog.rdv -> databricks.unity_catalog.ddv
+    autoLayout LeftRight
+  }
+
+  view execution {
+    title 'Ejecución a demanda'
+    include productive_process
+    include databricks.execution_compute
+    include artifactory.interpreter_library.dsl_executor
+    include databricks.unity_catalog.edv
+    include databricks.unity_catalog.ddv
+    include productive_process -> databricks.execution_compute
+    include databricks.execution_compute -> artifactory.interpreter_library.dsl_executor
+    include artifactory.interpreter_library.dsl_executor -> *
+    include * -> artifactory.interpreter_library.dsl_executor
+    autoLayout LeftRight
+  }
+
+  dynamic view rule_lifecycle {
+    title 'Ciclo de vida de una regla'
+    risk_specialist -> databricks.rule_app '1. Diseña en UI o carga .sql/.py'
+    databricks.rule_app -> artifactory.interpreter_library.compiler '2. Compila y valida'
+    artifactory.interpreter_library.compiler -> databricks.unity_catalog.rdv '3. Registra ejercicio versionado'
+    databricks.unity_catalog.rdv -> databricks.unity_catalog.ddv '4. Promueve directamente a DDV'
+    productive_process -> databricks.execution_compute '5. Solicita ejecución'
+    databricks.execution_compute -> artifactory.interpreter_library.dsl_executor '6. Invoca executor'
+    artifactory.interpreter_library.dsl_executor -> databricks.unity_catalog.ddv '7. Lee DSL aprobado'
+    artifactory.interpreter_library.dsl_executor -> databricks.execution_compute '8. Ejecuta con el backend objetivo'
+    autoLayout LeftRight
+  }
+}
